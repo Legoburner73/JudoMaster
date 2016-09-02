@@ -235,7 +235,13 @@ public class MyActivity extends AppCompatActivity {
         } else if (MoveName.matches("Valley Drop")) {
             EditText editText = (EditText)findViewById(R.id.yturl);
             editText.setText("https://www.youtube.com/watch?v=RqXZJ-xj6t4", TextView.BufferType.EDITABLE);
-        } else if (MoveName.matches("Kata "))
+        } else if (MoveName.matches("Kata Guruma")) {
+            EditText editText = (EditText)findViewById(R.id.ylurl);
+            editText.setText("https://www.youtube.com/watch?v=hBSJoGYmEko", TextView.BufferType.EDITABLE);
+        } else if (MoveName.matches("Shoulder Wheel") {
+            EditText editText = (EditText)findViewById(R.id.yturl);
+            editText.setText("https://www.youtube.com/watch?v=hBSJoGYmEko", TextView.BufferType.EDITABLE);
+        }
 
     }
 }
